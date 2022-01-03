@@ -1,0 +1,49 @@
+@media (max-width: 34em) {
+  html {
+    font-size: 50%;
+  }
+  main {
+    height: 65vh;
+    color: #eee;
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+    margin-top: 6.4rem;
+  }
+  .left {
+    width: 15rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .right {
+    width: 15rem;
+    font-size: 1rem;
+  }
+  h1 {
+    font-size: 2.4rem;
+  }
+  .number {
+    font-size: 4rem;
+    width: 10rem;
+    padding: 3rem 0rem;
+  }
+  .between {
+    font-size: 1.2rem;
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+  }
+  .guess {
+    border: 2px solid #eee;
+    font-size: 2.4rem;
+    padding: 1rem;
+    width: 12rem;
+    margin-bottom: 1rem;
+  }
+  .btn {
+    font-size: 1.2rem;
+    padding: 1rem 2rem;
+  }
+}
